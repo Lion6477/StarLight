@@ -9,6 +9,6 @@ import java.util.List;
 public record TalentsPagination(
         int totalPage,
         long totalTalents,
-        List<TalentEntity> talentShortDiscs
+        List<TalentEntity> talents
 ) {
 }
