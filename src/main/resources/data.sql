@@ -36,6 +36,6 @@ VALUES ('typescript',7,'vbghfcgjnf','111111111111111111111111111111');
 INSERT INTO position_entity (position,talent_id,short_description,full_description)
 VALUES ('data engineer',8,'vbghfcgjnf','111111111111111111111111111111');
 INSERT INTO position_entity (position,talent_id,short_description,full_description)
-VALUES ('cook',9,'vbghfcgjnf','111111111111111111111111111111');
+VALUES ('engineer',9,'vbghfcgjnf','111111111111111111111111111111');
 INSERT INTO position_entity (position,talent_id,short_description,full_description)
-VALUES ('teacher',10,'vbghfcgjnf','111111111111111111111111111111');
+VALUES ('photograph',10,'vbghfcgjnf','111111111111111111111111111111');

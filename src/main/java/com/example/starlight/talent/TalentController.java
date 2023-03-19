@@ -1,5 +1,6 @@
 package com.example.starlight.talent;
 
+import com.example.starlight.talent.model.TalentEntity;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-public class TalentPaginationController {
+public class TalentController {
     TalentRepository talentRepository;
 
     @GetMapping("/talent")

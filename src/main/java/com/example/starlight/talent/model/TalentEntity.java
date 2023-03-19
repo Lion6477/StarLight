@@ -1,7 +1,7 @@
-package com.example.starlight.talent;
+package com.example.starlight.talent.model;
 
 
-import com.example.starlight.position.PositionEntity;
+import com.example.starlight.talent.model.PositionEntity;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
