@@ -1,7 +1,5 @@
 package com.example.starlight.talent.model.entity;
 
-
-import com.example.starlight.talent.model.entity.PositionEntity;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
@@ -23,7 +21,7 @@ public class TalentEntity {
     Long talentId;
     String fullName;
     String mail;
-    //String password;
+    //TODO Add this parameter and mapper for this DTO to DTO on GET /talents list: String password;
     Integer age;
     String avatarUrl;
 
