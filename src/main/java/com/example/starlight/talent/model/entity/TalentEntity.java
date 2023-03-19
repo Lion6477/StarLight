@@ -23,7 +23,7 @@ public class TalentEntity {
     Long talentId;
     String fullName;
     String mail;
-    String password;
+    //String password;
     Integer age;
     String avatarUrl;
 
