@@ -3,7 +3,6 @@ CREATE TABLE talent_entity
     talent_id  BIGINT NOT NULL AUTO_INCREMENT,
     full_name  VARCHAR(255),
     mail       VARCHAR(255),
-    password   VARCHAR(255),
     age        INT,
     avatar_url VARCHAR(255),
     CONSTRAINT pk_talententity PRIMARY KEY (talent_id)
