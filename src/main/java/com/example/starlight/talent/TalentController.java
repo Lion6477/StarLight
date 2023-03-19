@@ -1,6 +1,6 @@
 package com.example.starlight.talent;
 
-import com.example.starlight.talent.model.TalentEntity;
+import com.example.starlight.talent.model.entity.TalentEntity;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
