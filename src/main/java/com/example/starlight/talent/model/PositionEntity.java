@@ -1,9 +1,10 @@
-package com.example.starlight.position;
+package com.example.starlight.talent.model;
 
-import com.example.starlight.talent.TalentEntity;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
+
+import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Getter
 @Builder
@@ -14,6 +15,8 @@ import lombok.*;
 @Entity
 public class PositionEntity {
     @Id
+    @GeneratedValue(strategy = IDENTITY)
+    Long id_position ;
     String position;
     @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "talent_id", nullable = false)
